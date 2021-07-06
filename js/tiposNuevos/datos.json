@@ -1,0 +1,11 @@
+{
+    "cadena": "manuel",
+    "numero": "36",
+    "booleano": true,
+    "arreglo": ["nadar", "programar", "pasear"],
+    "objeto": {
+      "facebook": "manolo.1217",
+      "email": "mrestrepor"
+    },
+    "nulo": null
+  }
