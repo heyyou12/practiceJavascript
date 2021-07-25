@@ -1,0 +1,13 @@
+:root {
+  --yellow-color: yellow;
+  --dark-color: var(--dark-color);
+}
+.cards {
+  border: thin solid slategray;
+  padding: 1rem;
+}
+FIGcaption {
+  background-color: slategray;
+  padding: 1rem;
+  width: 200px;
+}
