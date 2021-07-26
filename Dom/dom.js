@@ -39,3 +39,21 @@ document.body.appendChild($ul2);
 //$ul2.innerHTML = "";
 
 continentes.forEach((el) => ($ul2.innerHTML += `<li>${el}</li>`));
+
+
+const $ul3 = document.createElement("ul");
+const dias= ['lunes','martes','miercoles','jueves','viernes','sabado','domingo'];
+const $fragmento =document.createDocumentFragment();
+
+
+dias.forEach((el)=>{
+
+  const $li= document.createElement("li");
+  $li.textContent = el;
+  $fragmento.appendChild($li);
+
+
+});
+
+$ul3.appendChild($fragmento);
+document.body.appendChild($ul3);
